@@ -1,3 +1,19 @@
+## Код класу Сustomer
+public class Customer {
+  public int ID = 1;
+  public boolean isNew = true; 
+  public double total = 100;
+
+  public void displayCustomerInfo(){
+    System.out.println("Customer ID is: " + ID);
+    System.out.println("isNew: " + isNew);
+    System.out.println("Total purchases are: " + total);
+  }
+}
+## Скріншот роботи програми
+![alt-текст](Solution/done.png)
+![alt-текст](Solution/advanced.png)
+
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=9909604)
 # Створення класів
 
